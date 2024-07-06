@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* #box{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+} */
+
+body{
+    background-color: rgb(22, 12, 12);
+    /* position: relative; */
+}
+nav{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+ul li{
+    font-size: medium;
+}
+
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+}
